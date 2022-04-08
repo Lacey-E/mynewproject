@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal & Recipe</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+</head>
+
+<body>
+    <div class="content">
+        <header>
+
+        </header>
+
+        <main>
+
+            <div class = "container">
+                <div class = "meal-wrapper">
+                  <div class = "meal-search">
+                    <h2 class = "title">Don't Know What to Do with that Ingredient?</h2>
+                    <caption>Just Search it</caption>
+                    <blockquote>You are What you Eat.<br>
+                      <cite>- Jamie Oliver</cite>
+                    </blockquote>
+            
+                    <div class = "meal-search-box">
+                      <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
+                      <button type = "submit" class = "search-btn btn" id = "search-btn">
+                        <i class = "fas fa-search"></i>
+                      </button>
+                    </div>
+                  </div>
+            
+                  <div class = "meal-result">
+                    <h2 class = "title">Your Search Results:</h2>
+                    <div id= "meal" class="cards">
+                    </div>
+                  </div>
+            
+            
+                  <div class = "meal-details">
+                    <!-- recipe close btn -->
+                    <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+                      <i class = "fas fa-times"></i>
+                    </button>
+            
+                    <!-- meal content -->
+                    <div class = "meal-details-content">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+
+        </main>
+
+       
+        
+        <br>
+        <br>
+        <br>
+        <hr>
+        
+        <footer>
+            &copy;<span id="year"></span> | Esther Ezimadu | WDD 330 | Last
+            Modified: | <span id="time"></span>
+        </footer>
+
+        
+        
+        <script src="js/script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ["Roboto"],
+                },
+            });
+        </script>
+    </div>
+</body>
+
+</html>
